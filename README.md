@@ -19,9 +19,9 @@ With proixes:
 ```
 >>> from PyDeepAI import API
 >>> DEEPAI_API = API(key='quickstart-QUdJIGlzIGNvbWluZy4uLi4K', proxies={
-    "http": "http://localhost:1000",
-    "https": "http://localhost:1000"
-  })
+        "http": "http://localhost:1000",
+        "https": "http://localhost:1000"
+>>> })
 >>> print(str(DEEPAI_API))
 <API quickstart-QUdJIGlzIGNvbWluZy4uLi4K>
 ```
